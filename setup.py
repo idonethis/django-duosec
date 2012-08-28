@@ -21,8 +21,11 @@ def long_description():
 
 setup(name='django-duosec',
       version='1.0',
+      author='Duo Security + Mike Sun',
+      description='Duo Security two-factor auth for Django apps',
       packages=['duo_app',],
       package_data={'duo_app':['locale/*/LC_MESSAGES/*']},
       long_description=long_description(),
+      install_requires=['django>=1.2.5',
       classifiers=['Framework :: Django',
                    'Programming Language :: Python :: 2.7'])
