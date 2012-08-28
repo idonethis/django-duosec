@@ -26,6 +26,6 @@ setup(name='django-duosec',
       packages=['duo_app',],
       package_data={'duo_app':['locale/*/LC_MESSAGES/*']},
       long_description=long_description(),
-      install_requires=['django>=1.2.5',
+      install_requires=['django>=1.2.5'],
       classifiers=['Framework :: Django',
                    'Programming Language :: Python :: 2.7'])
