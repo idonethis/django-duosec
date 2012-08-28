@@ -19,7 +19,7 @@ def long_description():
         return LONG_DESCRIPTION
 
 
-setup(name='django-social-auth',
+setup(name='django-duosec',
       version='1.0',
       packages=['duo_app',],
       package_data={'duo_app':['locale/*/LC_MESSAGES/*']},
