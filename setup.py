@@ -24,6 +24,5 @@ setup(name='django-social-auth',
       packages=['duo_app',],
       package_data={'duo_app':['locale/*/LC_MESSAGES/*']},
       long_description=long_description(),
-      install_requires=['django>=1.3',],
       classifiers=['Framework :: Django',
                    'Programming Language :: Python :: 2.7'])
