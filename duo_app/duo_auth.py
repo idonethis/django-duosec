@@ -93,7 +93,7 @@ def login(request):
             request,
             {'message': message,
              'next': next,
-             'duo_js_src': '/'.join([settings.STATIC_PREFIX,
+             'duo_js_src': '/'.join([settings.STATIC_URL,
                                      'Duo-Web-v1.bundled.min.js']),
              'duo_host':settings.DUO_HOST,
              'post_action':request.path,
